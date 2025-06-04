@@ -1,0 +1,22 @@
+.underline {
+    text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+/* Для подчеркивания и зачёркивания вместе текст-decoration можно комбинировать */
+.underline.line-through {
+    text-decoration: underline line-through;
+}
+
+/* Чтобы ссылка не была подчеркнута */
+a {
+    text-decoration: none;
+    color: blue; /* Синий цвет для ссылки */
+}

@@ -1,0 +1,27 @@
+.task9 {
+    border-collapse: collapse;
+    width: 50%;
+    border-bottom: 3px solid maroon; /* нижняя линия таблицы */
+    font-family: Arial, sans-serif;
+}
+
+.task9 thead th {
+    background-color: maroon;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid maroon;
+    text-align: center;
+}
+
+.task9 tbody tr {
+    background-color: #fffacd; /* светло-желтый фон */
+}
+
+.task9 tbody td {
+    padding: 8px 12px;
+    color: black;
+}
+
+.task9 tbody td:first-child {
+    text-align: left;
+}

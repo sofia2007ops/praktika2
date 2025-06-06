@@ -1,0 +1,17 @@
+.task4 {
+    width: 70%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    
+}
+
+.task4 th, .task4 td {
+    border: 1px solid black;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+.task4 thead th {
+    background-color: #d9d9d9; /* светло-серый фон */
+    font-weight: bold;
+}

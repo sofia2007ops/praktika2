@@ -1,0 +1,19 @@
+.task5 {
+    border-collapse: collapse;
+    width: max-content;
+}
+
+.task5 thead th {
+    background-color: #8B0000; 
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+    border: 1px solid #5a0000;
+}
+
+.task5 tbody td {
+    background-color: #00008B; 
+    color: white;
+    padding: 8px 15px;
+    border: 1px solid #00005a;
+}

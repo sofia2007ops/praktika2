@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+table {
+    margin-bottom: 30px;
+    border: 1px solid #666;
+    width: 350px;
+    border-collapse: separate;
+}
+
+th, td {
+    padding: 5px 10px;
+    border: 1px solid #666;
+    text-align: left;
+}
+
+/* Таблица с collapsed border */
+table.collapse {
+    border-collapse: collapse;
+    background-color: hwb(0 100% 0%);
+}
+
+table.collapse th, table.collapse td {
+    border: 1px solid #555;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Таблица с separated border */
+table.separate {
+    border-collapse: separate;
+    border-spacing: 4px;
+    background-color: #ffffff;
+}
+
+table.separate th, table.separate td {
+    border: 1px solid #6b6b6b;
+    background-color: #ffffff;
+    color: #070604;
+}

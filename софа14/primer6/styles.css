@@ -1,0 +1,17 @@
+.task6 {
+    width: 400px;
+    border-collapse: separate;
+    border-spacing: 10px 15px; 
+    border: 2px solid #474444; 
+    padding: 10px;
+    background-color: #ffffff; 
+}
+
+.task6 td {
+    border: 1px solid #5f0303; 
+    padding: 10px 20px;
+    background-color: #ffffff; 
+    color: #5a1a1a; 
+    text-align: left;
+    font-weight: bold;
+}

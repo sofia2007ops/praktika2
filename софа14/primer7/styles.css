@@ -1,0 +1,15 @@
+/* Задание 7 */
+.task7 {
+    border-collapse: collapse;
+}
+
+.task7 td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.task7 .header-left {
+    background-color: #ffbf00; /* ярко-желтый */
+    font-weight: bold;
+}

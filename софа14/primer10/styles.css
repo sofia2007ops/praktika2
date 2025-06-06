@@ -1,0 +1,24 @@
+.employee-table {
+    width: 70%;
+    font-family: 'Lucida Sans Unicode', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    color: #669;
+}
+
+.employee-table th {
+    color: #003399; /* #039 - синий цвет заголовка */
+    border-bottom: 2px solid #6678b1;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.employee-table td {
+    border-bottom: 1px solid #6678b1;
+    padding: 8px 12px;
+    color: #669;
+}
+
+.employee-table tr:hover td {
+    color: #6699ff;
+    cursor: pointer;
+}

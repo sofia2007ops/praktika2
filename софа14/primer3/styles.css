@@ -1,0 +1,29 @@
+
+table {
+    border: 3px solid black;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    width: max-content;
+    background-color: #d4ba0d;
+}
+
+/* Таблица 1: ячейки без отступов, заливка желтая */
+.table1 th, .table1 td {
+    border: 1px solid rgb(1, 100, 6);
+    background-color: #d4ba0d; 
+    color: #333300; 
+    padding: 8px 15px;
+}
+
+/* Таблица 2: с отступами и зеленой заливкой ячеек */
+.table2 {
+    border-spacing: 5px; 
+    border-collapse: separate; 
+}
+
+.table2 th, .table2 td {
+    border: 2px solid rgb(1, 100, 6); 
+    background-color: #d4ba0d;
+    color: #336600;
+    padding: 8px 15px;
+}

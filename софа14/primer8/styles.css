@@ -1,0 +1,19 @@
+
+.task8 {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.task8 td {
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.task8 th {
+    background-color: #ffbf00; 
+    padding: 8px 12px;
+    border: 1px solid black;
+    font-weight: bold;
+    vertical-align: bottom; /* выравнивание по нижнему краю */
+}

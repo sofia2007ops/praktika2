@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Пример 8</title>
+<style>
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.one-colored {
+  border-style: outset;
+  border-width: 20px;
+  border-color: #0000cc;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.two-colored {
+  border-style: inset;
+  border-width: 20px;
+  border-color: #8b0000 #ff0000 #ff0000 #0000ff;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.three-colored {
+  border-style: groove;
+  border-width: 20px;
+  border-color: #ff0000 #0000ff #00cc00 #00cc00; 
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.four-colored {
+  border-style: ridge;
+  border-width: 20px;
+  border-color: #ff0000 #ff00ff #0000ff #00cc00;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  <div class="one-colored">One-colored border! Стиль границ - outset</div>
+  <div class="two-colored">Two-colored border! Стиль границ - inset</div>
+  <div class="three-colored">Three-colored border! Стиль границ - groove</div>
+  <div class="four-colored">Four-colored border! Стиль границ - ridge</div>
+  <p><b>ПРИМЕЧАНИЕ</b>: Свойство "border-color" не работает отдельно. Вначале укажите стиль 
+    границы border-style.</p>
+</body>
+</html>
